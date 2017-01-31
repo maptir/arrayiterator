@@ -57,7 +57,7 @@ public class ArrayIterator<T> implements Iterator<T> {
 	}
 
 	/**
-	 * 
+	 * Remove or set current array index to be null.
 	 */
 	public void remove() {
 		if (isNext) {
